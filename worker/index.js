@@ -16,7 +16,7 @@ async function handleRequest(request) {
   
   new_request.headers.append('x-request', 'CF-Request');
 
-  return await fetch(new_request);
+  return fetch(new_request);
   // return await fetch(request.url, {
   //   headers:{
   //     "x-request": `CF-Request`
