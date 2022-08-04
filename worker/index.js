@@ -11,7 +11,7 @@ async function handleRequest(request) {
   // }
 
   
-  url.hostname="img.viagle.com";
+  url.hostname="xx.viagle.com";
   let new_request=new Request(url,request);
   
   new_request.headers.append('x-request', 'CF-Request');
